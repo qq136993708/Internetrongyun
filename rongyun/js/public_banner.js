@@ -1,0 +1,24 @@
+//banner开始
+$(function(){
+	(function(){
+		$(window).scroll(function(){
+			if($(window).scrollTop()>=900){
+				$(".public_up").find("#img1").css({top:75+"px",transition:2+"s"})
+			}
+		})
+	})()
+})
+//banner结束
+//公众平台开始
+$(function(){
+	(function(){
+		$(window).scroll(function(){
+			if($(window).scrollTop()>=1400){
+				$(".gong_fr").find("img").fadeIn(1500)
+			}else if($(window).scrollTop()<1300){
+				$(".gong_fr").find("img").fadeOut(500)
+			}
+		})
+	})()
+})
+//公众平台开始

@@ -1,0 +1,277 @@
+/*移动开始*/
+.yi{
+	width: 100%;
+	height: 585px;
+	background: url(../img/csBG.jpg)no-repeat center;
+	background-size:100% ;
+}
+.yi_main{
+	width: 1180px;
+	margin: 0 auto;
+}
+.yi_head{
+	width: 400px;
+	padding-top:145px ;
+	margin: auto;
+}
+.yi_head img{
+	width: 379px;
+	height: 120px;
+}
+.yi_list{
+	padding-top: 100px;
+}
+.yi_list ul{
+	width: 780px;
+	margin: auto;
+}
+.yi_list ul li{
+	width: 140px;
+	height: 109px;
+	float: left;
+	padding: 0 20px;
+	color: #F3F3F3;
+	font-size: 14px;
+	text-align: center;
+}
+.yi_list ul li span{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+.yi_list ul li span:first-of-type{
+	background: url(../img/icons-cs.png)no-repeat center;
+	background-position: 0 1px;
+	background-size: 100%;
+}
+.yi_list ul li:nth-of-type(2) span{
+	background: url(../img/icons-cs.png)no-repeat center;
+	background-size: 100%;
+	background-position: 0 -67px;
+}
+.yi_list ul li:nth-of-type(3) span{
+	background: url(../img/icons-cs.png)no-repeat center;
+	background-size: 100%;
+	background-position: 0 -134px;
+}
+
+.yi_list ul li:nth-of-type(4) span{
+	background: url(../img/icons-cs.png)no-repeat center;
+	background-size: 100%;
+	background-position: 0 -200px;
+}
+/*移动结束*/
+/*SDK开始*/
+.sdk{
+	width: 100%;
+	height: 1172px;
+	background: #FAFAFA;
+}
+.sdk_main{
+	width: 1180px;
+	margin: 0 auto;
+}
+.sdk_head{
+	width: 780px;
+	margin: auto;
+	padding-top: 75px;
+}
+.sdk_head img{
+	width: 780px;
+	height: 225px;
+	background-size: 100%;
+}
+.sdk_list li{
+	width: 309px;
+	height: 354px;
+	background: white;
+	float: left;
+}
+.sdk_list li+li{
+	margin: 20px 30px;
+}
+.sdk_list li:first-of-type{
+	margin-top: 20px;
+}
+.sdk_list li:nth-of-type(4){
+	margin: 0;
+	margin-top: 20px;
+}
+.sdk_list ul{
+	width: 1100px;
+	margin: auto;
+	padding-top: 30px;
+}
+.sdk_list li dl .txt_top{
+	text-align: center;
+	padding-top: 30px;
+}
+.sdk_list li dl .txt_bottom p{
+	font-size: 14px;
+	text-align: left;
+	color: #66666E;
+	padding-left: 75px;
+	line-height: 25px;
+}
+.sdk_list li dl .txt_bottom p:first-of-type{
+	padding-top: 20px;
+}
+.txt_center{
+	display: inline-block;
+	height: 62px;
+	width: 62px;	
+	background: url(../img/icons-cs.png)no-repeat center;
+	background-size: 100%;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.txt_center:first-of-type{
+	background-position: 0 -245px;
+}
+.sdk_list li:nth-of-type(2) .txt_center{
+	background-position: 0 -305px;
+	margin-top: 40px;
+	height: 40px;
+	width: 62px;
+}
+.sdk_list li:nth-of-type(3) .txt_center{
+	background-position: 0 -345px;
+	margin-top: 40px;
+	height: 40px;
+	width: 62px;
+}
+.sdk_list li:nth-of-type(4) .txt_center{
+	background-position: 0 -385px;
+	margin-top: 40px;
+	height: 40px;
+	width: 62px;
+}
+.sdk_list li:nth-of-type(5) .txt_center{
+	background-position: 0 -430px;
+	margin-top: 40px;
+	height: 40px;
+	width: 62px;
+}
+.sdk_list li:nth-of-type(6) .txt_center{
+	background-position: 0 -475px;
+	margin-top: 40px;
+	height: 40px;
+	width: 62px;
+}
+/*SDK结束*/
+ /*典型案例开始*/
+.an{
+	width: 100%;
+	height: 463px;
+	background: url(../img/csCaseBG.jpg) no-repeat center;
+	background-size: 100%;
+}
+.an_main{
+	width: 1180px;
+	margin: auto;
+}
+.an_list h1{
+	text-align: center;
+	padding-top: 150px;
+}
+.an_list h1 img{
+	width: 182px;
+	height: 45px;
+}
+.an_list ul li{
+	width: 100px;
+	float: left;
+	margin: 0 25px;
+}
+.an_list ul {
+	width: 1200px;
+	padding-top: 60px;
+}
+.an_list ul li span img{
+	width: 92px;
+	padding: 4px;
+	height: 92px;
+	transition: all 1s;
+	position: absolute;
+}
+.an_list ul li span{
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius:50%;
+	background: rgba(232, 232, 232, 0.3);
+}
+.an_list ul li p{
+	text-align: center;
+	color: #F3F3F3;
+	font-size: 14px;
+	padding-top: 20px;
+}
+.an_list ul li span img:hover{
+	transition: all .5s;
+	animation:xuanzhuan .5s infinite;
+}
+@keyframes xuanzhuan{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(5deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-5deg);}
+	100%{transform: rotate(0deg);}
+}
+ /*典型案例结束*/
+/*-应用开始*/
+.ying{
+	width: 100%;
+	height: 285px;
+	background: #FAFAFA;
+}
+.ying_mian{
+	width: 1180px;
+	margin: auto;
+}
+.ying_header{
+	width: 300px;
+	margin: auto;
+	padding: 90px 0 85px;
+}
+.ying_header img{
+	width: 280px;
+	height: 30px;
+	background-size: 100%;
+}
+.ying_header p a{
+	width: 177px;
+	display: block;
+	margin:30px auto;
+	height: 50px;
+	background: url(../img/intro-user4.png) no-repeat center;
+	background-size: 100%;
+	background-position: 0 0;
+}
+.ying_header p:hover a{
+	width: 177px;
+	height: 50px;
+	background: url(../img/intro-user4.png) no-repeat center;
+	background-size: 100%;
+	background-position: 0 -75px;
+}
+/*应用结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

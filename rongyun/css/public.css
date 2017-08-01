@@ -1,0 +1,168 @@
+/*banner开始*/
+.public_banner{
+	width: 100%;
+	height: 847px;
+	background: url(../img/Public-Service_01.jpg);
+	background-size: 100%;
+}
+.public_txt{
+	width: 738px;
+	padding-top: 350px;
+	margin: auto;
+}
+.public_txt img{
+	width: 738px;
+	height: 287px;
+}
+/*banner结束*/
+/*认识开始*/
+.ren{
+	position: relative;
+	width: 100%;
+	height: 1068px;
+}
+.ren_main{
+	width: 1100px;
+	margin: auto;
+}
+.ren_header{
+	width: 800px;
+	margin: auto;
+	padding-top: 90px;
+}
+.ren_header img{
+	width: 800px;
+	height: 137px;
+	background-size: cover;
+}
+.public_counent p{
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+}
+.public_counent p:first-of-type{
+	margin-top: 80px;
+}
+.public_up{
+	width: 450px;
+	margin: auto;
+	position: relative;
+}
+.public_up img{
+	width: 450px;
+	height: 358px;
+	top: 255px;
+	z-index: 1;
+	position: absolute;
+	background-size: cover;
+}
+.public_bottom{
+	z-index: 2;
+	width: 100%;
+	position: absolute;
+	height: 200px;
+	bottom: 0px;
+	background: #6FD9CB;
+}
+/*认识结束*/
+/*公众平台开始*/
+.gong{
+	width: 100%;
+	height: 539px;
+}
+.gong_main{
+	width: 1000px;
+	margin: 0 auto;
+}
+.gong_fl{
+	width: 550px;
+	float: left;
+}
+.gong_fl_img{
+	width: 500px;
+	padding-top: 60px;
+}
+.gong_fl_img img{
+	width: 500px;
+	height: 109px;
+	background-size: 100%;
+}
+.fl_content p{
+	font-size: 14px;
+	color: #45454F;
+	line-height: 25px;
+}
+.fl_content p:first-child{
+	margin-top: 30px;
+}
+.gong_fr{
+	float: left;
+	padding-top: 60px;
+}
+.gong_fr img{
+	display: none;
+	width: 375px;
+	height: 309px;
+	background-size: 100%;
+}
+/*公众平台结束*/
+/*应用公众服务开始*/
+.zhong{
+	width: 100%;
+	height: 456px;
+}
+.zhong_main{
+	width: 1000px;
+	margin: auto;
+}
+.zhong_fl_img img{
+	width: 367px;
+	height: 110px;
+}
+.zhong_fr{
+	float: left;
+}
+.zhong_fr img{
+	width: 360px;
+	height: 256px;
+}
+/*应用公众服务结束*/
+/*<!--链接开始-->*/
+.jie{
+	width: 100%;
+	height: 280px;
+	background: #f6f6f6;
+}
+.jie_main{
+	width: 1000px;
+	margin: auto;
+}
+.jie_up{
+	padding-top: 60px;
+	width: 650px;
+	margin: auto;
+}
+.jie_up img{
+	width: 650px;
+	height: 58px;
+	background-size: 100%;
+}
+.jie_down{
+	padding-top: 25px;
+	width: 200px;
+	margin: auto;
+}
+.jie_down img{
+	width: 200px;
+	height: 49px;
+	background-size: 100%;
+}
+
+/*<!--链接结束-->*/
+
+
+
+
+
+
+

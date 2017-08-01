@@ -1,0 +1,163 @@
+/*<!--banner开始-->*/
+.ready {
+	width: 100%;
+	height: 772px;
+	background: url(../img/product_01.png)no-repeat center;
+	background-size: 100%;
+}
+.ready_main {
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.ipone_one {
+	width: 580px;
+	height: 396px;
+	background: url(../img/product_02.png) no-repeat center;
+	background-size: 100%;
+	position: absolute;
+	top: 255px;
+	left: 360px;
+	animation: hover2 2s ease-in-out infinite;
+	transition: 2s;
+}
+.ipone_two {
+	width: 580px;
+	height: 396px;
+	background: url(../img/product_03.png) no-repeat center;
+	background-size: 100%;
+	position: absolute;
+	top: 170px;
+	left: 350px;
+	animation: hover3 2s ease-in-out .2s infinite;
+	transition: 2s;
+}
+@keyframes hover2 {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(25px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+@keyframes hover3 {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(30px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+/*<!--banner结束-->*/
+/*直播开始*/
+.zhi{
+	width: 100%;
+	background: #f1f1f1;
+}
+.zhi_main{
+	width: 1180px;
+	height: 510px;
+	margin: 0 auto;
+}
+.zhi_header_fl{
+	width: 670px;
+	height: 414px;
+	padding-top: 95px;
+	padding-left: 100px;
+	float: left;
+}
+.zhi_header_fl h3 img{
+	width: 270px;
+	height: 96px;
+	background-size: 100%;
+}
+.zhi_header_fl p{
+	font-size: 16px;
+    color: #434a54;
+    line-height: 26px;
+}
+.zhi_header_fl p::selection{
+    color: blue;
+}
+.zhi_header_fr{
+	float: left;
+	padding-top: 95px;
+}
+.zhi_header_fr img{
+	width: 300px;
+	height: 300px;
+}
+/*直播结束*/
+/*自定义开始*/
+.zdy{
+	width: 100%;
+	height: 808px;
+}
+.zdy_header p{
+	color: #FBFEFF;
+}
+.zdy_header p img{
+	width: 500px;
+	height: 336px;
+	background-size: 100%;
+}
+.zdy_fr img{
+	width: 300px;
+	height: 572px;
+	background-size: 100%;
+}
+/*自定义结束*/
+/*客服平台开始*/
+.kefu{
+	width: 100%;
+	height:569px;
+	margin-top: -24px;
+	background: url(../img/product_13.jpg)no-repeat center;
+	background-size: 100%;
+}
+.kefu_main{
+	padding-top: 100px;
+}
+.kefu_head p{
+	color: #FBFEFF;
+}
+/*客服平台结束*/
+/*体验开始*/
+.ti{
+	width: 100%;
+	height: 510px;
+	background: #fbfbfb;
+}
+.ti_main{
+	width: 1180px;
+	margin: 0 auto;
+}
+.ti_head{
+	width: 980px;
+	margin: auto;
+	padding-top: 150px;
+}
+.ti_bottom{
+	width: 216px;
+	margin: auto;
+	padding-top: 120px;
+}
+.ti_head img{
+	width: 980px;
+	background-size:100% ;
+	height: 118px;
+	text-align: center;
+}
+.ti_bottom img{
+	width: 216px;
+	background-size:100% ;
+	height: 35px;
+	text-align: center;
+}
+/*体验结束*/

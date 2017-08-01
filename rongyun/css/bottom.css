@@ -1,0 +1,102 @@
+/*底部开始*/
+.bottom{
+	width: 100%;
+	background: black;
+}
+.bottom_main{
+	width: 1180px;
+	height: 543px;
+	margin: 0 auto;
+}
+.contact_us{
+	float: left;
+	text-align: left;
+	color: #ccc;
+	padding-top: 35px;
+}
+.contact_us li{
+	float: left;
+	text-align: left;
+	color: #ccc;
+	padding-top: 35px;
+	font-size: 14px;
+}
+.contact_us li span:hover {
+	color: #09f;
+}
+.contact_us li:first-of-type{
+	width: 244px;
+	height: 364px;
+	margin:0 70px;
+}
+.contact_us li:nth-of-type(2){
+	width: 163px;
+	height: 347px;
+	margin:0 70px;
+}
+.contact_us li:nth-of-type(3){
+	width: 163px;
+	height: 347px;
+	margin:0 70px;
+}
+.contact_us li h4{
+	width: 244px;
+	height: 40px;
+	font-weight: normal;
+	color: #CCC;
+	border-bottom: 2px solid #09f;
+}
+.contact_us li span img{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: 100%;
+}
+.contact_us li span{
+	padding-right: 15px;
+}
+.contact_us li .weibo{
+	height: 28px;
+	width: 33px;
+}
+.bottom_last{
+	padding-top: 75px;
+	text-align: center;
+	font-size: 15px;
+	
+}
+.bottom_last span{
+	color: #ccc;
+	padding-right:45px ;
+}
+.bottom_last a{
+	color: #ccc;
+	margin-left:-30px ;
+	
+}
+/*底部结束*/
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+微信号：rong-io
+官方微博

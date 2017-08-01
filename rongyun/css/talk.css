@@ -1,0 +1,227 @@
+/*banner开始*/
+.talk_banner{
+	width: 100%;
+	height: 644px;
+	background: url(../img/liveBG.jpg)no-repeat center;
+	background-size: cover;
+}
+/*banner结束*/
+/*<!--聊天开始-->*/
+.liao{
+	width: 100%;
+	background: #eee;
+	height: 644px;
+}
+.liao_main{
+	width: 1180px;
+	margin: 0 auto;
+}
+.liao_header{
+	width: 400px;
+	padding-top: 90px;
+	margin: auto;
+}
+.liao_header img{
+	width: 400px;
+	height: 94px;
+	background-size: 100%;
+}
+.liao_txt{
+	width: 1180px;
+	position: relative;
+}
+.liao_txt_img{
+	padding-top:50px ;
+	margin: auto;
+	width: 630px;
+	height: 389px;
+	background-size: 100%;
+}
+.liao_txt_img img{
+	width: 630px;
+	background-size: 100%;
+}
+.liao_txt li{
+	text-align: right;
+	position: absolute;
+}
+.liao_txt li h3{
+	font-weight: normal;
+}
+.liao_txt li p{
+	font-size: 14px;
+	color: #A2A2A2;
+}
+.liao_txt li:first-of-type {
+	top: 75px;
+	left: 195px;
+}
+.liao_txt li:nth-of-type(2) {
+	top: 40px;
+	text-align: left;
+	left: 845px;
+}
+.liao_txt li:nth-of-type(3) {
+	top: 265px;
+    left: 110px;
+}
+.liao_txt li:nth-of-type(4) {
+	top: 290px;
+    text-align: left;
+    left: 875px;
+}
+/*<!--聊天结束--*/
+/*<!--聊天室开始-->*/
+.talk_room{
+	width: 100%;
+	height: 762px;
+}
+.talk_room_main{
+	width: 1180;
+	margin: auto;
+}
+.talk_room_txt{
+	width: 1080px;
+	padding-top: 90px;
+	margin: auto;
+}
+.talk_room_txt img{
+	width: 1080;
+	height: 623px;
+	background-size: 100%;
+}
+/*<!--聊天室结束-->*/
+/*典型案例开始*/
+.an{
+	width: 100%;
+	height: 385px;
+	background: url(../img/liveCaseBG.jpg) no-repeat center;
+	background-size: cover;
+}
+.an_main{
+	width: 1180px;
+	margin: auto;
+}
+.an_list h1{
+	text-align: center;
+	padding-top: 70px;
+}
+.an_list h1 img{
+	width: 182px;
+	height: 45px;
+}
+.an_list ul li{
+	width: 100px;
+	float: left;
+	margin: 0 35px;
+}
+.an_list ul {
+	width: 900px;
+	margin: auto;
+	padding-top: 60px;
+}
+.an_list ul li span img{
+	width: 92px;
+	padding: 4px;
+	height: 92px;
+	transition: all 1s;
+	position: absolute;
+}
+.an_list ul li span{
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius:50%;
+	background: rgba(232, 232, 232, 0.3);
+}
+.an_list ul li p{
+	text-align: center;
+	color: #F3F3F3;
+	font-size: 14px;
+	padding-top: 20px;
+}
+.an_list ul li span img:hover{
+	transition: all .5s;
+	animation:xuanzhuan .5s infinite;
+}
+@keyframes xuanzhuan{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(5deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-5deg);}
+	100%{transform: rotate(0deg);}
+}
+ /*典型案例结束*/
+ /*下载开始*/
+.xia{
+	width: 100%;
+	height:666px ;
+}
+.xia_main{
+	width: 1180px;
+	margin: 0 auto;
+}
+.xia_header{
+	width: 360px;
+	margin: auto;
+	padding: 65px 0;
+}
+.xia_header img{
+	width: 360px;
+	height: 92px;
+	background-size: 100%;
+}
+.xia_list{
+	width: 600px;
+	margin: auto;
+}
+.xia_list li{
+	float: left;
+	margin: 0 20px;
+}
+.xia_list li p{
+	padding-top: 10px;
+	font-size: 14px;
+	color: #A2A2A2;
+	text-align: center;
+}
+.xia_list li img{
+	width: 250px;
+	height: 250px;
+	background-size: 100%;
+}
+.xia_go{
+	width: 515px;
+	margin: auto;
+}
+.xia_go li{
+	float: left;
+	margin-top: 50px;
+}
+.xia_go li:first-of-type{
+	width: 205px;
+	height: 50px;
+	margin-right: 90px;
+	display: inline-block;
+	background: url(../img/intro-user5.png) no-repeat center;
+	background-size: 100%;
+	background-position:0 0 ;
+}
+.xia_go li:first-of-type:hover{
+	background-position:0 -77px;
+}
+.xia_go li:nth-of-type(2){
+	width: 205px;
+	height: 50px;
+	display: inline-block;
+	background: url(../img/intro-user6.png) no-repeat center;
+	background-size: 100%;
+	background-position:0 0 ;
+}
+.xia_go li:nth-of-type(2):hover{
+	background-position:0 -77px;
+}
+ /*下载结束*/
+
+
+

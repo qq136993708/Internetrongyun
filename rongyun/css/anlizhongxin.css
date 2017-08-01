@@ -1,0 +1,220 @@
+/*banner开始*/
+
+.li {
+	width: 100%;
+	height: 854px;
+	background: #19181E url(../img/CaseBG1.jpg)no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+
+.li_banner {
+	width: 1100px;
+	margin: auto;
+}
+
+.li_banner_header {
+	width: 700px;
+	margin: auto;
+	padding-top: 100px;
+}
+
+.li_banner_header img {
+	width: 700px;
+	height: 102px;
+	background-size: cover;
+}
+
+.li_banner_list ul li {
+	width: 100px;
+	float: left;
+	display: none;
+	margin: 25px 30px;
+}
+
+.li_banner_list ul {
+	width: 900px;
+	padding-top: 60px;
+	margin: auto;
+}
+
+.li_banner_list ul li span img {
+	width: 92px;
+	padding: 4px;
+	height: 92px;
+	transition: all 1s;
+	position: absolute;
+}
+
+.li_banner_list ul li span {
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius: 50%;
+	background: rgba(232, 232, 232, 0.3);
+}
+
+.li_banner_list ul li p {
+	text-align: center;
+	color: #F3F3F3;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.li_banner_bottom {
+	width: 1100px;
+}
+
+.li_banner_bottom img {
+	width: 400px;
+	height: 98px;
+	padding-top: 40px;
+	padding-left: 640px;
+	background-size: cover;
+}
+
+.an_list-btn a:first-child {
+	position: relative;
+	width: 47px;
+	top: -350px;
+	height: 47px;
+	display: inline-block;
+	z-index: 10;
+	background: url(../img/case-pre.png)no-repeat center;
+	background-size: 100%;
+}
+
+.an_list-btn a:last-child {
+	position: relative;
+	width: 47px;
+	top: -350px;
+	left: 1250px;
+	height: 47px;
+	display: inline-block;
+	z-index: 10;
+	background: url(../img/case-next.png)no-repeat center;
+	background-size: 100%;
+}
+.an_list-btn{
+	position: absolute;
+	top: 770px;
+}
+.one {
+	position: relative;
+	top: -110px;
+	left: 25px;
+}
+.one img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.two {
+	position: relative;
+	top: -110px;
+	left: -111px;
+}
+
+.two img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.an_btn img {
+	display: none;
+}
+/*banner结束*/
+/*气球开始*/
+.qiu{
+	width: 100%;
+	height: 500px;
+}
+.qiu_main{
+	width: 1100px;
+	margin: 0 auto;
+}
+.qiu_fl{
+	width: 150px;
+	height: 490px;
+	float: left;
+}
+.qiu_fl img{
+	width: 150px;
+	height: 150px;
+	padding-top: 100px;
+    background-size: 100%;
+}
+.qiu_fr{
+	width: 748px;
+	height: 483px;
+	float: left;
+}
+.qiu_fr_h{
+	width: 680px;
+	height: 400px;
+	padding: 100px 0 0 100px;
+}
+.qiu_fr_h img{
+	width: 180px;
+	height: 55px;
+	background-size: 100%;
+}
+.qiu_fr_h p{
+	line-height: 30px;
+	color: #434A54;
+}
+.qiu_fr_h p:first-of-type{
+	padding-top: 30px;
+}
+/*气球结束*/
+.wrap_list{
+	width: 100%;
+	height: 600px;
+	background: #BFC4CA;
+}
+.wrap_main{
+	width: 1100px;
+	margin: 0 auto;
+}
+.wrap_show{
+	width: 220px;
+	margin: 20px 25px;
+	height: 220px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.wrap_show .zz{
+	width: 220px;
+	height: 220px;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 220px;
+	transition: all .5s;
+	z-index: 9;
+	opacity: 0;
+}
+.wrap_show:hover .zz{
+	opacity: 1;
+	transform: rotateY(180deg);
+}
+.wrap_show img{
+	width: 220px;
+	height: 220px;
+	font-size: 20px;
+	transition:all .5s;
+}
+.wrap_show:hover img{
+	transform: scale(1.1);
+	
+}
+
+
+
+
+
